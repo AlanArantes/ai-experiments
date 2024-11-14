@@ -16,7 +16,7 @@ The purpose of this repository is to foster learning and allow others to build u
 The repository follows an organized structure for easy navigation:
 
 ````markdown
-/repo
+/ai-experiments
   ├── experiment_1/
   │   ├── notebook.ipynb
   │   ├── data/
