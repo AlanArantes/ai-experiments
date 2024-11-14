@@ -15,16 +15,18 @@ The purpose of this repository is to foster learning and allow others to build u
 
 The repository follows an organized structure for easy navigation:
 
-/repo\
-  ├── experiment_1/\
-  │   ├── notebook.ipynb\
-  │   ├── data/\
-  │   └── results/\
-  ├── experiment_2/\
-  │   ├── notebook.ipynb\
-  │   ├── model.py\
-  │   └── utils.py\
+````markdown
+/repo
+  ├── experiment_1/
+  │   ├── notebook.ipynb
+  │   ├── data/
+  │   └── results/
+  ├── experiment_2/
+  │   ├── notebook.ipynb
+  │   ├── model.py
+  │   └── utils.py
   └── README.md
+````
 
 Each experiment folder typically contains:
 - **notebook.ipynb**: Jupyter notebook that explains and executes the experiment.
