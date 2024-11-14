@@ -38,7 +38,7 @@ Each experiment folder typically contains:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/AI-Experiments.git
+   git clone https://github.com/AlanArantes/AI-Experiments.git
    cd AI-Experiments
 2. **Install Dependencies**:
 Use the requirements.txt file in the root directory to install all necessary packages.
