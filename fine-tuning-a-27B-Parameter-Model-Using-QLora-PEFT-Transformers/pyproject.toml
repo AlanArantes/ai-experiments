@@ -1,0 +1,35 @@
+[project]
+name = "qlora-fine-tuning"
+version = "0.1.0"
+description = "QLoRA fine-tuning pipeline using PyTorch, Transformers, PEFT, TRL, and bitsandbytes"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "torch>=2.4.0",
+    "transformers>=4.45.0,<5.0.0",
+    "datasets>=3.0.0",
+    "trl>=0.11.0",
+    "peft>=0.13.0",
+    "bitsandbytes>=0.43.0",
+    "accelerate>=1.0.0",
+    "fastapi>=0.141.1",
+    "uvicorn>=0.52.4",
+    "pydantic>=2.13.5",
+    "setuptools",
+    "vllm>=0.6.0; sys_platform == 'linux'",
+]
+
+[tool.uv]
+package = false
+
+# ---------------------------------------------------------------------------
+# Hardware Acceleration / PyTorch CUDA Wheel Configuration
+# ---------------------------------------------------------------------------
+# Guarantees that PyTorch installs with CUDA support rather than falling back to CPU.
+[[tool.uv.index]]
+name = "pytorch-cu124"
+url = "https://download.pytorch.org/whl/cu124"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu124" }
