@@ -1,0 +1,18 @@
+[project]
+name = "event-sourcing-for-agentic-ai-deterministic-auditable-replayable"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28.1",
+    "openai>=3.19.2",
+    "pydantic>=2.0",
+    "pytest>=9.1.1",
+    "pyyaml>=6.0.3",
+    "requests>=2.34.2",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
