@@ -11,6 +11,13 @@ This repository is structured to help you explore, understand, and replicate AI 
 
 The purpose of this repository is to foster learning and allow others to build upon these experiments for research, academic work, or personal projects.
 
+## 🌟 Featured Experiments & Companion Notebooks
+
+| Experiment / Article | Colab Notebook | Local Scaffolding | Focus & Architecture |
+| :--- | :--- | :--- | :--- |
+| **Fortifying Agentic AI**<br>*(Resilient Test Scaffolding & Defense-in-Depth)* | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AlanArantes/AI-Experiments/blob/main/fortifying-agentic-ai-test-scaffolding-defense-in-depth/fortifying_agentic_ai_colab_notebook.ipynb) | [`fortifying-agentic-ai...`](./fortifying-agentic-ai-test-scaffolding-defense-in-depth/) | 4-layer defense-in-depth: Pydantic schemas, trajectory least-privilege, closed-world LLM-as-a-judge, Promptfoo red-teaming. |
+| **Event Sourcing for Agentic AI**<br>*(Deterministic, Auditable & Replayable LLM Systems)* | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AlanArantes/AI-Experiments/blob/main/event-sourcing-for-agentic-ai-deterministic-auditable-replayable/event_sourcing_agentic_ai_colab_notebook.ipynb) | [`event-sourcing-for...`](./event-sourcing-for-agentic-ai-deterministic-auditable-replayable/) | Append-only event store, hash-chain tamper detection, pure state projection fold, time-travel debugging & counterfactual branching. |
+
 ## Repository Structure
 
 The repository follows an organized structure for easy navigation:
