@@ -1,0 +1,31 @@
+<context>
+[Retrieved Contract Clauses / Statutory Articles]
+Clause 14.2: Right of withdrawal exercisable within 7 calendar days of receipt.
+Clause 14.3: Custom manufactured goods are exempt unless defective upon delivery.
+Clause 14.4: In case of rescission, return shipping is bearable by the buyer.
+Clause 22: Electronic notification via registered support email qualifies as valid written notice.
+</context>
+<query>
+I purchased standard headphones on 2026-03-01, delivered on 2026-03-05. On 2026-03-11 I sent an email to support asking for a refund and withdrawal. Can I cancel?
+</query>
+<think>
+[ISSUE SPOTTING]
+- Primary legal question: Does the buyer have a right of rescission?
+- Temporal anchors: Purchase date: 2026-03-01; Delivery date: 2026-03-05; Notice date: 2026-03-11. Elapsed days since receipt: 6 days.
+
+[RULE EXTRACTION]
+- Clause 14.2: Right of withdrawal exercisable within 7 calendar days of receipt.
+- Clause 14.3 (Exception): Custom manufactured goods are exempt unless defective upon delivery.
+
+[APPLICATION & FACT CHECKING]
+- Condition 1 (Timeliness): Notice at Day 6 <= 7 days threshold -> SATISFIED.
+- Condition 2 (Item Classification): The item was standard inventory, not custom -> EXCEPTION DOES NOT APPLY.
+- Condition 3 (Condition of Good): Unbroken seal confirmed in fact statement -> SATISFIED.
+- Self-Correction/Verification: Did the buyer waive notice formality? Fact text states written email sent to designated support address. Clause 22 permits electronic notification.
+
+[CONCLUSION & CAVEATS]
+- Rescission right is valid. Buyer is entitled to full refund minus return shipping as specified by Clause 14.4.
+</think>
+<answer>
+Yes, you are eligible to withdraw from the contract. Under Clause 14.2, you have 7 calendar days from delivery (March 5) to request a refund, and your notice on March 11 (6 days) was timely. Because the headphones are standard inventory rather than custom goods (Clause 14.3), and your email qualifies as written notice under Clause 22, your cancellation is valid. Note that return shipping costs apply pursuant to Clause 14.4.
+</answer>

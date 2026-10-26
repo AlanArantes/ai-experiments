@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: catalog-api
+  namespace: sandbox-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: catalog-api
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: catalog-api
+        tier: backend
+    spec:
+      containers:
+      - name: web
+        image: hashicorp/http-echo:latest
+        args: ["-text=catalog-v1-ok", "-listen=:8080"]
+        ports:
+        - containerPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: catalog-service
+  namespace: sandbox-app
+spec:
+  selector:
+    # Fault: mismatch on key/value prevents endpoint registration
+    app: catalog-api 
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 8080

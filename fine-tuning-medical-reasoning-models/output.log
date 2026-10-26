@@ -1,0 +1,217 @@
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+driver.c
+C:\Users\alan_\Projetos\labs\AI-EXP~1\FINE-T~2\VENV~1\Lib\SITE-P~1\triton\backends\nvidia\driver.c(1079): error C2059: erro de sintaxe: '}'
+C:\Users\alan_\Projetos\labs\AI-EXP~1\FINE-T~2\VENV~1\Lib\SITE-P~1\triton\backends\nvidia\driver.c(1087): error C2059: erro de sintaxe: '}'
+Failed to compile. cc_cmd: ['C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe', 'C:\\Users\\alan_\\Projetos\\labs\\AI-EXP~1\\FINE-T~2\\VENV~1\\Lib\\SITE-P~1\\triton\\backends\\nvidia\\driver.c', '/nologo', '/O2', '/LD', '/wd4819', '/std:c11', '/IC:\\Users\\alan_\\Projetos\\labs\\ai-experiments\\fine-tuning-medical-reasoning-models\\.venv\\Lib\\site-packages\\triton\\backends\\nvidia\\include', '/IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include', '/IC:\\Users\\alan_\\AppData\\Local\\Temp\\TMPRHI~1', '/IC:\\Users\\alan_\\AppData\\Roaming\\uv\\python\\cpython-3.13.7-windows-x86_64-none\\Include', '/IC:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\include', '/IC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\shared', '/IC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt', '/IC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um', '/FoC:\\Users\\alan_\\AppData\\Local\\Temp\\TMPRHI~1\\cuda_utils.cp313-win_amd64.obj', '/link', '/LIBPATH:C:\\Users\\alan_\\Projetos\\labs\\ai-experiments\\fine-tuning-medical-reasoning-models\\.venv\\Lib\\site-packages\\triton\\backends\\nvidia\\lib', '/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\lib\\x64', '/LIBPATH:C:\\Users\\alan_\\AppData\\Roaming\\uv\\python\\cpython-3.13.7-windows-x86_64-none\\libs', '/LIBPATH:C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\lib\\x64', '/LIBPATH:C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.22621.0\\ucrt\\x64', '/LIBPATH:C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.22621.0\\um\\x64', 'cuda.lib', 'python313.lib', '/OUT:C:\\Users\\alan_\\AppData\\Local\\Temp\\TMPRHI~1\\cuda_utils.cp313-win_amd64.pyd', '/IMPLIB:C:\\Users\\alan_\\AppData\\Local\\Temp\\TMPRHI~1\\cuda_utils.cp313-win_amd64.lib', '/PDB:C:\\Users\\alan_\\AppData\\Local\\Temp\\TMPRHI~1\\cuda_utils.cp313-win_amd64.pdb']
+C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\unsloth_zoo\_vendored\fla\utils\_device.py:100: UserWarning: Triton is not supported on current platform, roll back to CPU.
+  _cpu_device_warning()
+driver.c
+C:\Users\alan_\Projetos\labs\AI-EXP~1\FINE-T~2\VENV~1\Lib\SITE-P~1\triton\backends\nvidia\driver.c(1079): error C2059: erro de sintaxe: '}'
+C:\Users\alan_\Projetos\labs\AI-EXP~1\FINE-T~2\VENV~1\Lib\SITE-P~1\triton\backends\nvidia\driver.c(1087): error C2059: erro de sintaxe: '}'
+Failed to compile. cc_cmd: ['C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe', 'C:\\Users\\alan_\\Projetos\\labs\\AI-EXP~1\\FINE-T~2\\VENV~1\\Lib\\SITE-P~1\\triton\\backends\\nvidia\\driver.c', '/nologo', '/O2', '/LD', '/wd4819', '/std:c11', '/IC:\\Users\\alan_\\Projetos\\labs\\ai-experiments\\fine-tuning-medical-reasoning-models\\.venv\\Lib\\site-packages\\triton\\backends\\nvidia\\include', '/IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include', '/IC:\\Users\\alan_\\AppData\\Local\\Temp\\TMP2E0~1', '/IC:\\Users\\alan_\\AppData\\Roaming\\uv\\python\\cpython-3.13.7-windows-x86_64-none\\Include', '/IC:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\include', '/IC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\shared', '/IC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt', '/IC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um', '/FoC:\\Users\\alan_\\AppData\\Local\\Temp\\TMP2E0~1\\cuda_utils.cp313-win_amd64.obj', '/link', '/LIBPATH:C:\\Users\\alan_\\Projetos\\labs\\ai-experiments\\fine-tuning-medical-reasoning-models\\.venv\\Lib\\site-packages\\triton\\backends\\nvidia\\lib', '/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\lib\\x64', '/LIBPATH:C:\\Users\\alan_\\AppData\\Roaming\\uv\\python\\cpython-3.13.7-windows-x86_64-none\\libs', '/LIBPATH:C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\lib\\x64', '/LIBPATH:C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.22621.0\\ucrt\\x64', '/LIBPATH:C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.22621.0\\um\\x64', 'cuda.lib', 'python313.lib', '/OUT:C:\\Users\\alan_\\AppData\\Local\\Temp\\TMP2E0~1\\cuda_utils.cp313-win_amd64.pyd', '/IMPLIB:C:\\Users\\alan_\\AppData\\Local\\Temp\\TMP2E0~1\\cuda_utils.cp313-win_amd64.lib', '/PDB:C:\\Users\\alan_\\AppData\\Local\\Temp\\TMP2E0~1\\cuda_utils.cp313-win_amd64.pdb']
+C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\unsloth_zoo\_vendored\fla\utils\_device.py:165: UserWarning: Triton is not supported on current platform, roll back to CPU.
+  _cpu_device_warning()
+driver.c
+C:\Users\alan_\Projetos\labs\AI-EXP~1\FINE-T~2\VENV~1\Lib\SITE-P~1\triton\backends\nvidia\driver.c(1079): error C2059: erro de sintaxe: '}'
+C:\Users\alan_\Projetos\labs\AI-EXP~1\FINE-T~2\VENV~1\Lib\SITE-P~1\triton\backends\nvidia\driver.c(1087): error C2059: erro de sintaxe: '}'
+Failed to compile. cc_cmd: ['C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe', 'C:\\Users\\alan_\\Projetos\\labs\\AI-EXP~1\\FINE-T~2\\VENV~1\\Lib\\SITE-P~1\\triton\\backends\\nvidia\\driver.c', '/nologo', '/O2', '/LD', '/wd4819', '/std:c11', '/IC:\\Users\\alan_\\Projetos\\labs\\ai-experiments\\fine-tuning-medical-reasoning-models\\.venv\\Lib\\site-packages\\triton\\backends\\nvidia\\include', '/IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include', '/IC:\\Users\\alan_\\AppData\\Local\\Temp\\TMPC_O~1', '/IC:\\Users\\alan_\\AppData\\Roaming\\uv\\python\\cpython-3.13.7-windows-x86_64-none\\Include', '/IC:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\include', '/IC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\shared', '/IC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt', '/IC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um', '/FoC:\\Users\\alan_\\AppData\\Local\\Temp\\TMPC_O~1\\cuda_utils.cp313-win_amd64.obj', '/link', '/LIBPATH:C:\\Users\\alan_\\Projetos\\labs\\ai-experiments\\fine-tuning-medical-reasoning-models\\.venv\\Lib\\site-packages\\triton\\backends\\nvidia\\lib', '/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\lib\\x64', '/LIBPATH:C:\\Users\\alan_\\AppData\\Roaming\\uv\\python\\cpython-3.13.7-windows-x86_64-none\\libs', '/LIBPATH:C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\lib\\x64', '/LIBPATH:C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.22621.0\\ucrt\\x64', '/LIBPATH:C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.22621.0\\um\\x64', 'cuda.lib', 'python313.lib', '/OUT:C:\\Users\\alan_\\AppData\\Local\\Temp\\TMPC_O~1\\cuda_utils.cp313-win_amd64.pyd', '/IMPLIB:C:\\Users\\alan_\\AppData\\Local\\Temp\\TMPC_O~1\\cuda_utils.cp313-win_amd64.lib', '/PDB:C:\\Users\\alan_\\AppData\\Local\\Temp\\TMPC_O~1\\cuda_utils.cp313-win_amd64.pdb']
+driver.c
+C:\Users\alan_\Projetos\labs\AI-EXP~1\FINE-T~2\VENV~1\Lib\SITE-P~1\triton\backends\nvidia\driver.c(1079): error C2059: erro de sintaxe: '}'
+C:\Users\alan_\Projetos\labs\AI-EXP~1\FINE-T~2\VENV~1\Lib\SITE-P~1\triton\backends\nvidia\driver.c(1087): error C2059: erro de sintaxe: '}'
+Failed to compile. cc_cmd: ['C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe', 'C:\\Users\\alan_\\Projetos\\labs\\AI-EXP~1\\FINE-T~2\\VENV~1\\Lib\\SITE-P~1\\triton\\backends\\nvidia\\driver.c', '/nologo', '/O2', '/LD', '/wd4819', '/std:c11', '/IC:\\Users\\alan_\\Projetos\\labs\\ai-experiments\\fine-tuning-medical-reasoning-models\\.venv\\Lib\\site-packages\\triton\\backends\\nvidia\\include', '/IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include', '/IC:\\Users\\alan_\\AppData\\Local\\Temp\\TMPXFS~1', '/IC:\\Users\\alan_\\AppData\\Roaming\\uv\\python\\cpython-3.13.7-windows-x86_64-none\\Include', '/IC:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\include', '/IC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\shared', '/IC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt', '/IC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um', '/FoC:\\Users\\alan_\\AppData\\Local\\Temp\\TMPXFS~1\\cuda_utils.cp313-win_amd64.obj', '/link', '/LIBPATH:C:\\Users\\alan_\\Projetos\\labs\\ai-experiments\\fine-tuning-medical-reasoning-models\\.venv\\Lib\\site-packages\\triton\\backends\\nvidia\\lib', '/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\lib\\x64', '/LIBPATH:C:\\Users\\alan_\\AppData\\Roaming\\uv\\python\\cpython-3.13.7-windows-x86_64-none\\libs', '/LIBPATH:C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\lib\\x64', '/LIBPATH:C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.22621.0\\ucrt\\x64', '/LIBPATH:C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.22621.0\\um\\x64', 'cuda.lib', 'python313.lib', '/OUT:C:\\Users\\alan_\\AppData\\Local\\Temp\\TMPXFS~1\\cuda_utils.cp313-win_amd64.pyd', '/IMPLIB:C:\\Users\\alan_\\AppData\\Local\\Temp\\TMPXFS~1\\cuda_utils.cp313-win_amd64.lib', '/PDB:C:\\Users\\alan_\\AppData\\Local\\Temp\\TMPXFS~1\\cuda_utils.cp313-win_amd64.pdb']
+W0920 22:08:49.571000 33696 .venv\Lib\site-packages\torch\utils\_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0920 22:08:49.853000 33696 .venv\Lib\site-packages\torch\utils\_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\unsloth\import_fixes.py:3525: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+  original_setattr(self, name, value)
+==((====))==  Unsloth 2026.9.7: Fast Qwen2 patching. Transformers: 5.5.0.
+   \\   /|    NVIDIA GeForce RTX 4050 Laptop GPU. Num GPUs = 1. Max memory: 5.997 GB. Platform: Windows.
+O^O/ \_/ \    Torch: 2.12.1+cu126. CUDA: 8.9. CUDA Toolkit: 12.6. Triton: 3.8.0
+\        /    Bfloat16 = TRUE. FA [Xformers = 0.0.35. FA2 = False]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: Fast downloading is enabled - ignore downloading bars which are red colored!
+Loading weights: 100%|█████████████████| 434/434 [00:03<00:00, 140.54it/s]
+Unsloth 2026.9.7 patched 36 layers with 36 QKV layers, 36 O layers and 36 MLP layers.
+Loading dataset...
+warmup_ratio is deprecated and will be removed in v5.2. Use `warmup_steps` instead.
+🦥 Unsloth: Padding-free auto-enabled, enabling faster training.
+Starting training...
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None}.
+==((====))==  Unsloth - 2x faster free finetuning | Num GPUs used = 1
+   \\   /|    Num examples = 19,704 | Num Epochs = 1 | Total steps = 2,463
+O^O/ \_/ \    Batch size per device = 1 | Gradient accumulation steps = 8
+\        /    Data Parallel GPUs = 1 | Total batch size (1 x 8 x 1) = 8
+ "-____-"     Trainable parameters = 29,933,568 of 3,115,872,256 (0.96% trained)
+  0%|                                            | 0/2463 [00:00<?, ?it/s]`use_return_dict` is deprecated! Use `return_dict` instead!
+Unsloth: Will smartly offload gradients to save VRAM!
+driver.c
+C:\Users\alan_\Projetos\labs\AI-EXP~1\FINE-T~2\VENV~1\Lib\SITE-P~1\triton\backends\nvidia\driver.c(1079): error C2059: erro de sintaxe: '}'
+C:\Users\alan_\Projetos\labs\AI-EXP~1\FINE-T~2\VENV~1\Lib\SITE-P~1\triton\backends\nvidia\driver.c(1087): error C2059: erro de sintaxe: '}'
+Failed to compile. cc_cmd: ['C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe', 'C:\\Users\\alan_\\Projetos\\labs\\AI-EXP~1\\FINE-T~2\\VENV~1\\Lib\\SITE-P~1\\triton\\backends\\nvidia\\driver.c', '/nologo', '/O2', '/LD', '/wd4819', '/std:c11', '/IC:\\Users\\alan_\\Projetos\\labs\\ai-experiments\\fine-tuning-medical-reasoning-models\\.venv\\Lib\\site-packages\\triton\\backends\\nvidia\\include', '/IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include', '/IC:\\Users\\alan_\\AppData\\Local\\Temp\\TMPNEH~1', '/IC:\\Users\\alan_\\AppData\\Roaming\\uv\\python\\cpython-3.13.7-windows-x86_64-none\\Include', '/IC:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\include', '/IC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\shared', '/IC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt', '/IC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um', '/FoC:\\Users\\alan_\\AppData\\Local\\Temp\\TMPNEH~1\\cuda_utils.cp313-win_amd64.obj', '/link', '/LIBPATH:C:\\Users\\alan_\\Projetos\\labs\\ai-experiments\\fine-tuning-medical-reasoning-models\\.venv\\Lib\\site-packages\\triton\\backends\\nvidia\\lib', '/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\lib\\x64', '/LIBPATH:C:\\Users\\alan_\\AppData\\Roaming\\uv\\python\\cpython-3.13.7-windows-x86_64-none\\libs', '/LIBPATH:C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\lib\\x64', '/LIBPATH:C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.22621.0\\ucrt\\x64', '/LIBPATH:C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.22621.0\\um\\x64', 'cuda.lib', 'python313.lib', '/OUT:C:\\Users\\alan_\\AppData\\Local\\Temp\\TMPNEH~1\\cuda_utils.cp313-win_amd64.pyd', '/IMPLIB:C:\\Users\\alan_\\AppData\\Local\\Temp\\TMPNEH~1\\cuda_utils.cp313-win_amd64.lib', '/PDB:C:\\Users\\alan_\\AppData\\Local\\Temp\\TMPNEH~1\\cuda_utils.cp313-win_amd64.pdb']
+Traceback (most recent call last):
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\app.py", line 132, in <module>
+    trainer_stats = trainer.train()
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\unsloth\trainer.py", line 1098, in _train_with_reset
+    return _orig_train(*train_args, **train_kwargs)
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\unsloth_compiled_cache\UnslothSFTTrainer.py", line 116, in wrapper
+    output = f(self, *args, **kwargs)
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\transformers\trainer.py", line 1424, in train
+    return inner_training_loop(
+        args=args,
+    ...<2 lines>...
+        ignore_keys_for_eval=ignore_keys_for_eval,
+    )
+  File "<string>", line 84, in _fast_inner_training_loop
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\transformers\trainer.py", line 1734, in _run_epoch
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\unsloth_compiled_cache\UnslothSFTTrainer.py", line 1519, in training_step
+    return super().training_step(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\unsloth\models\_utils.py", line 3295, in _unsloth_training_step_settling_fallbacks
+    return _training_step_before_settle(self, *args, **kwargs)
+  File "<string>", line 40, in _unsloth_training_step
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\unsloth_compiled_cache\UnslothSFTTrainer.py", line 1508, in compute_loss
+    outputs = super().compute_loss(
+        model,
+    ...<2 lines>...
+        num_items_in_batch = num_items_in_batch,
+    )
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\unsloth\models\_utils.py", line 3168, in _unsloth_pre_compute_loss
+    outputs = self._old_compute_loss(model, inputs, *args, **kwargs)
+  File "<string>", line 41, in compute_loss
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\accelerate\utils\operations.py", line 943, in forward
+    return model_forward(*args, **kwargs)
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\accelerate\utils\operations.py", line 931, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+                           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\torch\amp\autocast_mode.py", line 44, in decorate_autocast
+    return func(*args, **kwargs)
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\torch\_compile.py", line 54, in inner
+    return disable_fn(*args, **kwargs)
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\torch\_dynamo\eval_frame.py", line 1298, in _fn
+    return fn(*args, **kwargs)
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\unsloth\models\llama.py", line 1587, in PeftModel_fast_forward
+    return self.base_model(
+           ~~~~~~~~~~~~~~~^
+        input_ids = input_ids,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\peft\tuners\tuners_utils.py", line 359, in forward
+    return self.model(*args, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\unsloth\models\llama.py", line 1386, in _CausalLM_fast_forward
+    outputs = self.model(
+        input_ids = input_ids,
+    ...<9 lines>...
+        **kwargs,
+    )
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\unsloth\models\llama.py", line 1171, in LlamaModel_fast_forward
+    layer_outputs = decoder_layer(
+        hidden_states,
+    ...<8 lines>...
+        **kwargs,
+    )
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\transformers\modeling_layers.py", line 92, in __call__
+    return self._gradient_checkpointing_func(partial(super().__call__, **kwargs), *args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\torch\_compile.py", line 54, in inner
+    return disable_fn(*args, **kwargs)
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\torch\_dynamo\eval_frame.py", line 1298, in _fn
+    return fn(*args, **kwargs)
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\unsloth_zoo\gradient_checkpointing.py", line 1191, in unsloth_checkpoint
+    return UnslothCheckpointFunction.apply(function, preserve, *args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\torch\autograd\function.py", line 596, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\unsloth_zoo\gradient_checkpointing.py", line 972, in forward
+    outputs = run_function(*args)
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\unsloth\models\llama.py", line 829, in LlamaDecoderLayer_fast_forward
+    hidden_states = fast_rms_layernorm(self.input_layernorm, hidden_states)
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\torch\_dynamo\eval_frame.py", line 1298, in _fn
+    return fn(*args, **kwargs)
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\unsloth\kernels\rms_layernorm.py", line 249, in fast_rms_layernorm
+    out = Fast_RMS_Layernorm.apply(X, W, eps, gemma)
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\torch\autograd\function.py", line 596, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\unsloth\kernels\rms_layernorm.py", line 184, in forward
+    fx[(n_rows,)](
+    ~~~~~~~~~~~~~^
+        Y,
+        ^^
+    ...<10 lines>...
+        num_warps = num_warps,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\triton\runtime\jit.py", line 374, in <lambda>
+    return lambda *args, **kwargs: self.run(grid=grid, warmup=False, *args, **kwargs)
+                                   ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\triton\runtime\jit.py", line 731, in run
+    device = driver.active.get_current_device()
+             ^^^^^^^^^^^^^
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\triton\runtime\driver.py", line 52, in active
+    self._active = self.default
+                   ^^^^^^^^^^^^
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\triton\runtime\driver.py", line 46, in default
+    self._default = _create_driver()
+                    ~~~~~~~~~~~~~~^^
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\triton\runtime\driver.py", line 34, in _create_driver
+    return active_drivers[0]()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\triton\backends\nvidia\driver.py", line 362, in __init__
+    self.utils = CudaUtils()  # TODO: make static
+                 ~~~~~~~~~^^
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\triton\backends\nvidia\driver.py", line 121, in __init__
+    mod = compile_module_from_file(
+        src_path=os.path.join(dirname, "driver.c"),
+    ...<3 lines>...
+        libraries=libraries,
+    )
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\triton\runtime\build.py", line 305, in compile_module_from_file
+    return _compile_so_from_file(src_path, name, library_dirs, include_dirs, libraries, ccflags, load_module=True)
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\triton\runtime\build.py", line 273, in _compile_so_from_file
+    return _compile_so(src=src, src_path=src_path, name=name, library_dirs=library_dirs, include_dirs=include_dirs,
+                       libraries=libraries, ccflags=ccflags, language=language, load_module=load_module)
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\triton\runtime\build.py", line 257, in _compile_so
+    so = _build(name, src_path, tmpdir, library_dirs or [], include_dirs or [], libraries or [], ccflags or [],
+                language=language)
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\triton\runtime\build.py", line 182, in _build
+    raise e
+  File "C:\Users\alan_\Projetos\labs\ai-experiments\fine-tuning-medical-reasoning-models\.venv\Lib\site-packages\triton\runtime\build.py", line 179, in _build
+    subprocess.check_call(cc_cmd)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\alan_\AppData\Roaming\uv\python\cpython-3.13.7-windows-x86_64-none\Lib\subprocess.py", line 419, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe', 'C:\\Users\\alan_\\Projetos\\labs\\AI-EXP~1\\FINE-T~2\\VENV~1\\Lib\\SITE-P~1\\triton\\backends\\nvidia\\driver.c', '/nologo', '/O2', '/LD', '/wd4819', '/std:c11', '/IC:\\Users\\alan_\\Projetos\\labs\\ai-experiments\\fine-tuning-medical-reasoning-models\\.venv\\Lib\\site-packages\\triton\\backends\\nvidia\\include', '/IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include', '/IC:\\Users\\alan_\\AppData\\Local\\Temp\\TMPNEH~1', '/IC:\\Users\\alan_\\AppData\\Roaming\\uv\\python\\cpython-3.13.7-windows-x86_64-none\\Include', '/IC:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\include', '/IC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\shared', '/IC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt', '/IC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um', '/FoC:\\Users\\alan_\\AppData\\Local\\Temp\\TMPNEH~1\\cuda_utils.cp313-win_amd64.obj', '/link', '/LIBPATH:C:\\Users\\alan_\\Projetos\\labs\\ai-experiments\\fine-tuning-medical-reasoning-models\\.venv\\Lib\\site-packages\\triton\\backends\\nvidia\\lib', '/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\lib\\x64', '/LIBPATH:C:\\Users\\alan_\\AppData\\Roaming\\uv\\python\\cpython-3.13.7-windows-x86_64-none\\libs', '/LIBPATH:C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\lib\\x64', '/LIBPATH:C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.22621.0\\ucrt\\x64', '/LIBPATH:C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.22621.0\\um\\x64', 'cuda.lib', 'python313.lib', '/OUT:C:\\Users\\alan_\\AppData\\Local\\Temp\\TMPNEH~1\\cuda_utils.cp313-win_amd64.pyd', '/IMPLIB:C:\\Users\\alan_\\AppData\\Local\\Temp\\TMPNEH~1\\cuda_utils.cp313-win_amd64.lib', '/PDB:C:\\Users\\alan_\\AppData\\Local\\Temp\\TMPNEH~1\\cuda_utils.cp313-win_amd64.pdb']' returned non-zero exit status 2.
+

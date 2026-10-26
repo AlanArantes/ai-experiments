@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fine-tuning-medical-reasoning-models"
+version = "0.1.0"
+description = "Fine-tuning medical reasoning models using Unsloth and TRL"
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "unsloth",
+    "trl",
+    "datasets",
+    "transformers",
+    "peft",
+    "accelerate",
+    "bitsandbytes",
+    "dotenv",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "ruff",
+    "pytest",
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu126" }
+torchvision = { index = "pytorch-cu126" }

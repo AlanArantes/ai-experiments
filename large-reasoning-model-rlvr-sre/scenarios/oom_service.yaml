@@ -1,0 +1,61 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: payment-processor
+  namespace: sandbox-app
+  labels:
+    app: payment-processor
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: payment-processor
+  template:
+    metadata:
+      labels:
+        app: payment-processor
+    spec:
+      containers:
+      - name: worker
+        image: python:3.11-slim
+        command: ["python", "-u", "-c"]
+        args:
+        - |
+          import http.server, socketserver, os, time
+          # Allocate 45MB baseline in memory
+          leak = [bytearray(1024 * 1024) for _ in range(45)]
+          class Handler(http.server.SimpleHTTPRequestHandler):
+              def do_GET(self):
+                  if self.path == '/healthz':
+                      self.send_response(200)
+                      self.end_headers()
+                      self.wfile.write(b'OK')
+                  elif self.path == '/process':
+                      # Triggers an additional 25MB allocation causing OOM over 64Mi limit
+                      leak.extend([bytearray(1024 * 1024) for _ in range(25)])
+                      self.send_response(200)
+                      self.end_headers()
+                      self.wfile.write(b'PROCESSED')
+          with socketserver.TCPServer(("", 8080), Handler) as httpd:
+              httpd.serve_forever()
+        ports:
+        - containerPort: 8080
+        resources:
+          requests:
+            memory: "32Mi"
+            cpu: "50m"
+          limits:
+            memory: "64Mi"  # Fault: limit is too low for baseline + workload
+            cpu: "100m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: payment-processor
+  namespace: sandbox-app
+spec:
+  selector:
+    app: payment-processor
+  ports:
+  - port: 8080
+    targetPort: 8080
